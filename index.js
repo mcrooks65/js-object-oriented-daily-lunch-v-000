@@ -11,4 +11,10 @@ class Customer {
   delivers() {
     return // returns a list of all deliveries placed in a neighborhood
   }
+  customers() {
+
+  }
+  meals() {
+
+  }
 }
