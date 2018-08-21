@@ -8,13 +8,6 @@ class Neighborhood {
     this.name = name;
     this.id = neighborhoodId++;
   }
-}
-
-class Customer {
-  constructor(name) {
-    this.name = name;
-    this.id = customerId++;
-  }
   delivers() {
     return // returns a list of all deliveries placed in a neighborhood
   }
@@ -24,4 +17,12 @@ class Customer {
   meals() {
 
   }
+}
+
+class Customer {
+  constructor(name) {
+    this.name = name;
+    this.id = customerId++;
+  }
+
 }
